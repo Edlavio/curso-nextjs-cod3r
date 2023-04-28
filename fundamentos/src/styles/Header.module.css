@@ -1,0 +1,31 @@
+.header { 
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-header);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--gray-dark);
+}
+
+.header h1 {
+  color: var(--white);
+  font-weight: bold;
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header nav a{
+  color: var(--white);
+  font-weight: bold;
+  transition: color 150ms all ease-in-out;
+}
+
+.header nav a:hover{
+  color: var(--gray-light);
+}

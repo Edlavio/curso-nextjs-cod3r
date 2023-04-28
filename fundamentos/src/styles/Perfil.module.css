@@ -1,0 +1,65 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.username {
+  color: var(--gray-light);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.info div span {
+  border: 2px solid var(--gray-light);
+  color: var(--gray-light);
+  padding: 4px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.info p {
+    font-size: 1rem;
+    color: var(--gray-light);
+}
+
+.button {
+  background-color: var(--red);
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  color: var(--white);
+  margin-top: 1.5rem;
+}

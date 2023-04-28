@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --white: #fff;
+  --red: #d80808;
+  --gray-light: #c7c7c7;
+  --gray-dark: #535353;
+  --bg-header: #24242493;
+  --bg-background: #333;
+  --black: #000;
+}
+
+html,
+body {
+  background: var(--bg-background);
+  color: var(--white);
+}
+
+button {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  color: var(--white);
+}
