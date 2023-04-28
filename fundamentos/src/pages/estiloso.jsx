@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 
 export default function estiloso() {
   return (
-    <Layout>
+    <Layout pageTitle='Estiloso'>
       <div className={styles.container}>
         <p>Estiloso Page</p>
       </div>

@@ -18,7 +18,7 @@ export default function Perfil() {
     setUser(data);
   };
   useEffect(() => {
-    const userURL = `http://localhost:3000/api/profile/${id}`;
+    const userURL = `/api/profile/${id}`;
 
     getUser(userURL);
   }, [id]);
@@ -27,7 +27,7 @@ export default function Perfil() {
   const title = userList.map((user) => user.name);
 
   return (
-    <Layout titulo={title} url={id}>
+    <Layout titulo={title} url={id} pageTitle={`Perfil | ${title}`}>
       {userList.map((user) => (
         <div className={styles.user} key={user.id}>
           <Image

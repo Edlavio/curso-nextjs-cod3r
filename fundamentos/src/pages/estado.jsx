@@ -9,7 +9,7 @@ export default function Estado() {
   };
 
   return (
-    <Layout titulo='Componente estado'>
+    <Layout titulo='Componente estado' pageTitle='Componente estado'>
       <h2>{numero}</h2>
       <button onClick={Incrementar}>Incrementar</button>
     </Layout>

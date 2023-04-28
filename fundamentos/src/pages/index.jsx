@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.css";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 export default function Home() {
   const [users, setUsers] = useState({});
@@ -16,7 +15,7 @@ export default function Home() {
     setUsers(data);
   };
   useEffect(() => {
-    const usersURL = `http://localhost:3000/api/profile/`;
+    const usersURL = `/api/profile/`;
 
     getUsers(usersURL);
   }, []);

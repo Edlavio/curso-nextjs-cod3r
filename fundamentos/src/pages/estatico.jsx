@@ -10,7 +10,7 @@ export function getServerSideProps(context) {
 
 export default function estatico(props) {
   return (
-    <Layout>
+    <Layout pageTitle='Estatico'>
       <h3>{props.numero}</h3>
     </Layout>
   )
